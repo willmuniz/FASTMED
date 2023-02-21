@@ -1,0 +1,28 @@
+body{
+    background-image: linear-gradient(white, rgb(255, 49, 49));
+
+}
+fieldset{
+        text-align: center
+}
+
+.txt{
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+border: 5px solid rgb(253, 41, 41);
+}
+
+.ex{
+    text-align: center
+}
+
+.img{
+    text-align: center;
+}
+a{
+    color: rgb(73, 1, 1);
+}
