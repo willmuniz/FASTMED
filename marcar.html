@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Online</title>
+    
+    <link rel="icon" type="image/png" sizes="32x32"
+    href="img/dsBuffer.bmp.jpeg"
+    />
+</head>
+<style>
+    body{
+    background-image: linear-gradient(#b5c6ff,#013b86);
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+    input{
+        text-align: center;
+    }
+    .a{
+        color:white;
+        font-size: 22px;
+    }
+    a{
+        font-size: 20px;
+    }
+</style>
+<body>
+    <center>
+        <h1>Marcar Consulta Psicóloga</h1><br><br>
+    <form>
+    
+        <label for="lname">Médico:</label><br>
+        <input type="text"id="fname" name="fname" list="faixa"maxleigth="30" size="30" >
+      <datalist id="faixa">
+        <option value="Dra. Amanda M."></option>
+        <option value="Dr. Bruno C."></option>
+        <option value="Dra. Jaqueline Morais"></option>
+        <option value="Dr. Roberto Domingues"></option>
+        <option value="Dra. Sabrina Gomes"></option>
+      </datalist><br><br>
+      <label for="lname">Data:</label><br>
+      <input type="date"id="fname" name="fname" maxleigth="30" size="30" required><br><br>
+      <label for="lname">Horário:</label><br>
+      <input type="time"id="fname" name="fname" maxleigth="30" size="30" required><br><br>
+        <a href="conc2.html" > Marcar Consulta </a>
+    </form>
+<br><br>
+    <a href="ps.html" class="a">Voltar</a>
+</center>
+</body>
+</html>

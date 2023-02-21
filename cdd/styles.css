@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(white, rgb(112, 245, 255));
+
+}
+
+fieldset{
+    text-align: center;
+}
+
+.ex{
+    text-align: center;
+}
+
+.txt{
+    text-align: center;
+}

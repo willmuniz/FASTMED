@@ -1,0 +1,23 @@
+body{
+    background-image: linear-gradient(white, rgb(176, 255, 139));
+
+}
+.tex{
+    text-align: center;
+}
+a{
+    color: rgb(14, 83, 0);
+    text-align: center;
+}
+
+.ex{
+    color: rgb(84, 167, 1);
+}
+
+fieldset{
+    text-align: center
+}
+
+.ee{
+    text-align: start;
+}
